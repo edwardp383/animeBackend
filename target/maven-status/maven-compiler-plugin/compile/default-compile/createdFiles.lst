@@ -1,13 +1,11 @@
 animeWatchlist/Application.class
 animeWatchlist/CorsConfig.class
-animeWatchlist/UserController.class
-animeWatchlist/UserRepository.class
-animeWatchlist/EpisodeRepository.class
 animeWatchlist/SecurityConfiguration.class
 animeWatchlist/User.class
+animeWatchlist/UserController.class
+animeWatchlist/UserRepository.class
 animeWatchlist/Anime.class
 animeWatchlist/AnimeController.class
 animeWatchlist/WebMvcConfig.class
 animeWatchlist/UserService.class
 animeWatchlist/AnimeRepository.class
-animeWatchlist/Episode.class

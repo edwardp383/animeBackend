@@ -18,6 +18,8 @@ public class Anime {
 
     private String synopsis;
 
+    private Integer episode;
+
     public User getUser() {
         return user;
     }
@@ -46,6 +48,14 @@ public class Anime {
 
     public void setSynopsis(String synopsis) {
         this.synopsis = synopsis;
+    }
+
+    public Integer getEpisode() {
+        return episode;
+    }
+
+    public void setEpisode(Integer episode) {
+        this.episode = episode;
     }
 
     public Long getId(){
