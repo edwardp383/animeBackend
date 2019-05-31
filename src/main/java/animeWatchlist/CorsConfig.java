@@ -14,7 +14,7 @@ public class CorsConfig implements WebMvcConfigurer {
 
         registry.addMapping("/**")
                 .allowedOrigins(
-                        "https://anime-watch-track.herokuapp.com/")
+                        "https://anime-watch-track.herokuapp.com")
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "HEAD", "OPTIONS")
                 .allowCredentials(true)
                 .allowedHeaders("*");
